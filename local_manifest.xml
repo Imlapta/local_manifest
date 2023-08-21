@@ -3,11 +3,11 @@
 
  <!-- Remotes -->
     <remote name="me-hub"
-            fetch="https://github.com/AnkitSavani111/"
+            fetch="https://github.com/Imlapta/"
             clone-depth="1" />
 
     <remote name="me-lab"
-            fetch="https://gitlab.com/AnkitSavani111/"
+            fetch="https://gitlab.com/Imlapta/"
             clone-depth="1" />
 
     <remote name="madmax"
@@ -19,10 +19,14 @@
             clone-depth="1" />
 
  <!-- Trees -->
- <project path="device/xiaomi/munch" name="android_device_xiaomi_munch" remote="me-hub" revision="Evolution-X-tiramisu" />
- <project path="vendor/xiaomi/munch" name="android_vendor_xiaomi_munch" remote="me-lab" revision="Evolution-X-tiramisu" />
- <project path="device/xiaomi/sm8250-common" name="android_device_xiaomi_sm8250-common" remote="me-hub" revision="Evolution-X-tiramisu" />
- <project path="vendor/xiaomi/sm8250-common" name="android_vendor_xiaomi_sm8250-common" remote="me-lab" revision="Evolution-X-tiramisu" />
+ <project path="device/xiaomi/munch" name="android_device_xiaomi_munch" remote="me-hub" revision="
+Project-Awaken" />
+ <project path="vendor/xiaomi/munch" name="android_vendor_xiaomi_munch" remote="me-lab" revision="
+Project-Awaken" />
+ <project path="device/xiaomi/sm8250-common" name="android_device_xiaomi_sm8250-common" remote="me-hub" revision="
+Project-Awaken" />
+ <project path="vendor/xiaomi/sm8250-common" name="android_vendor_xiaomi_sm8250-common" remote="me-lab" revision="
+Project-Awaken" />
  <project path="kernel/xiaomi/sm8250" name="nexus_kernel_xiaomi_sm8250" remote="nexus" revision="f2fs-lineage" />
 
  <!-- Clang -->
